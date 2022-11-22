@@ -1,0 +1,62 @@
+Ir a la carpeta del proyecto y ejecutar en una terminal:
+    virtualenv env (pongo env por poner un nombre, se puede poner margarita)
+Luego ejecutar en la terminal source env/bin/activate
+Ahí ejecutar ./install.sh (si da error puede que haya que darle permisos en las propiedades de ejecución.
+Luego ejecutar ./boot.sh
+
+Cambios en código:
+    En main/__init__.py, linea 24 cambiar 'sqlite:////' por 'sqlite:///'
+        linea 47 cambiar mail.functions.mail a functions.mail
+
+    En main/controllers/clientes.py comentar lineas 42,43,44
+
+    En app.py poner el el main los métodos de arriba
+
+analizar los patrones de diseño y comentar el código
+    Singleton (en repositorioapuesta.py)
+    Fábrica
+    Constructor (En los .py de controllers y models, .setter .deleter)
+    Prototipo
+
+    Adaptador
+
+
+
+archivos
+    app.py
+
+    en controllers, models, services
+        apuesta.py
+        clientes.py
+        cuota.py
+        empresas.py
+        equipos.py
+        partidos.py
+    en mail
+        functions.py
+    en map
+        apuesta_schema.py
+        cliente_filters.py
+        cliente_schema.py
+        couta_schema.py
+        empresa_schema.py
+        equipo_schema.py
+        partido_schema.py
+    en repositories
+        repositorio.py
+        repositorioapuesta.py
+        repositoriobase.py
+        repositoriocliente.py
+        repositoriocuota.py
+        repositorioempresa.py
+        repositorioequipo.py
+        repositoriopartido.py
+    en utils
+        logger.py
+        singleton.py
+    en validate
+        validate_apuesta.py
+        validate_cliente.py
+        validate_cuota.py
+        validate_equipo.py
+        validate_partido.py

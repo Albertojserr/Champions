@@ -13,12 +13,91 @@ Cambios en código:
     En app.py poner el el main los métodos de arriba
 
 analizar los patrones de diseño y comentar el código
-    Singleton (en repositorioapuesta.py)
-    Fábrica
-    Constructor (En los .py de controllers y models, .setter .deleter)
-    Prototipo
 
-    Adaptador
+    -Singleton :
+
+            -/repositories/repositorioapuesta.py (@singleton_pattern.singleton)
+            -/utils/singleton.py
+
+    -Fábrica
+
+    -Fábrica Abstracta
+
+          -/map/apuesta_schema.py (@post_load,@post_dump)
+          -/map/cliente_schema.py (@post_load)
+          -/map/couta_schema.py (@post_load,@post_dump)
+          -/map/empresa_schema.py (@post_load)
+          -/map/equipo_schema.py (@post_load,@post_dump)
+          -/map/partido_schema.py (@post_load,@post_dump)
+
+    -Constructor :
+          -/models/apuesta.py (.setter, .deleter)
+          -/models/cliente.py (.setter, .deleter)
+          -/models/cuota.py (.setter, .deleter)
+          -/models/empresas.py (.setter, .deleter)
+          -/models/equipos.py (.setter, .deleter)
+          -/models/partidos.py (.setter, .deleter)
+
+    -Prototipo
+
+
+
+    -Adaptador
+
+    -Puente
+
+    -Composite
+
+    -Decorador:
+
+          -/repositories/repositorio.py (@property)
+          -/repositories/repositorioapuesta.py (@property)
+          -/repositories/repositoriobase.py (@abstractmethod)
+          -/repositories/repositoriocliente.py (@property)
+          -/repositories/repositoriocuota.py (@property)
+          -/repositories/repositorioempresa.py (@property)
+          -/repositories/repositorioequipo.py (@property)
+          -/repositories/repositoriopartido.py (@property)
+
+          -/utils/logger.py (@abstractmethod)
+
+          -/validate/validate_apuesta.py (@property)
+          -/validate/validate_cliente.py (decorador, wrapper)
+          -/validate/validate_cuota.py (decorador, wrapper)
+          -/validate/validate_equipo.py (decorador, wrapper)
+          -/validate/validate_partido.py (decorador, wrapper)
+          -/services/decorators.py (decorador, wrapper)
+
+          -/models/apuesta.py (@hybrid_property)
+          -/models/cliente.py (@hybrid_property)
+          -/models/cuota.py (@hybrid_property)
+          -/models/empresas.py (@hybrid_property)
+          -/models/equipos.py (@hybrid_property)
+          -/models/partidos.py (@hybrid_property)
+
+    -Fachada
+
+    -Peso Mosca
+
+    -Proxy
+
+
+
+    -Cadena de responsabilidad
+
+    -Solicitud
+
+    -Iterador
+
+    -Memento
+
+    -Visitante
+
+    -Observador
+
+    -Estrategia
+
+    -Función de callback
 
 
 
@@ -42,7 +121,7 @@ archivos
         empresa_schema.py
         equipo_schema.py
         partido_schema.py
-    en repositories
+    en repositories (terminado)
         repositorio.py
         repositorioapuesta.py
         repositoriobase.py
@@ -51,7 +130,7 @@ archivos
         repositorioempresa.py
         repositorioequipo.py
         repositoriopartido.py
-    en utils
+    en utils (terminado)
         logger.py
         singleton.py
     en validate

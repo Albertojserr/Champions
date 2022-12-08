@@ -29,7 +29,7 @@ end
 # unset irrelevant variables
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/media/Almacenamiento/alberto/Documentos/UAX/Curso 3/Desarrollo Orientado a Objetos/Api_Casas_Apuestas-main"
+set -gx VIRTUAL_ENV "/media/Almacenamiento/alberto/Documentos/UAX/Curso 3/Desarrollo Orientado a Objetos/Champions"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH
@@ -52,8 +52,8 @@ if test -z "$VIRTUAL_ENV_DISABLE_PROMPT"
         set -l old_status $status
 
         # Prompt override?
-        if test -n "(Api_Casas_Apuestas-main) "
-            printf "%s%s" "(Api_Casas_Apuestas-main) " (set_color normal)
+        if test -n "(Champions) "
+            printf "%s%s" "(Champions) " (set_color normal)
         else
             # ...Otherwise, prepend env
             set -l _checkbase (basename "$VIRTUAL_ENV")

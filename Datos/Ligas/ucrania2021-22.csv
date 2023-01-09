@@ -1,0 +1,36 @@
+Local,GolesLocal,GolesVisitante,Visitante
+Shakhtar Donetsk,4,1,Desna Chernihiv    
+Shakhtar Donetsk,2,0,Dnipro-1
+Shakhtar Donetsk,6,1,Lviv
+Shakhtar Donetsk,1,2,Oleksandria 
+Shakhtar Donetsk,6,1,Zoryá Lugansk
+Shakhtar Donetsk,2,0,Rukh Lviv
+Shakhtar Donetsk,2,1,Inhulets Petrove
+Shakhtar Donetsk,4,1,Veres Rivne
+Shakhtar Donetsk,2,0,Metalist 1925 Kharkiv
+Dinamo Kiev,0,0,Shakhtar Donetsk
+Chernomorets Odessa,0,3 ,Shakhtar Donetsk
+Kolos Kovalivka,1,3 ,Shakhtar Donetsk
+Lviv,0,3 ,Shakhtar Donetsk
+Mariupol,0,5 ,Shakhtar Donetsk
+Oleksandria,1,2,Shakhtar Donetsk
+Mynai,1,1,Shakhtar Donetsk
+Vorskla Poltava,2,0,Shakhtar Donetsk
+Inhulets Petrove,0,1,Shakhtar Donetsk
+Dinamo Kiev,4,0,Desna Chernihiv
+Dinamo Kiev,2,0,Dnipro-1
+Dinamo Kiev,7,0,Kolos Kovalivka
+Dinamo Kiev,1,0,Oleksandria
+Dinamo Kiev,2,0,Mynai
+Dinamo Kiev,1,2,Vorskla Poltava
+Dinamo Kiev,1,1,Zoryá Lugansk
+Dinamo Kiev,4,0,Veres Rivne
+Chernomorets Odessa,1,6,Dinamo Kiev
+Lviv,1,4,Dinamo Kiev
+Mariupol,2,3,Dinamo Kiev
+Mynai,0,2,Dinamo Kiev
+Zoryá Lugansk,1,2,Dinamo Kiev
+Rukh Lviv,0,2,Dinamo Kiev
+Inhulets Petrove,1,1,Dinamo Kiev
+Veres Rivne,0,3,Dinamo Kiev
+Metalist 1925 Kharkiv,0,2,Dinamo Kiev

@@ -1,0 +1,97 @@
+Local,GolesLocal,GolesVisitante,Visitante
+Sporting CP,3,0,Vizela
+Braga,1,2,Sporting CP
+Sporting CP,2,0,B-SAD
+Famalicão,1,1,Sporting CP
+Sporting CP,1,1,Porto
+Estoril,0,1,Sporting CP
+Sporting CP,1,0,Marítimo
+Arouca,1,2,Sporting CP
+Sporting CP,1,0,Moreirense
+Sporting CP,1,0,Vitória
+Paços,0,2,Sporting CP
+Sporting CP,2,0,Tondela
+Benfica,1,3,Sporting CP
+Sporting CP,2,0,Boavista
+Gil Vicente FC,0,3,Sporting CP
+Sporting CP,3,2,Portimonense
+Santa Clara,3,2,Sporting CP
+Vizela,0,2,Sporting CP
+Sporting CP,1,2,Braga
+B-SAD,1,4,Sporting CP
+Sporting CP,2,0,Famalicão
+Porto,2,2,Sporting CP
+Sporting CP,3,0,Estoril
+Marítimo,1,1,Sporting CP
+Sporting CP,2,0,Arouca
+Moreirense,0,2,Sporting CP
+Vitória,1,3,Sporting CP
+Sporting CP,2,0,Paços
+Tondela,1,3,Sporting CP
+Sporting CP,0,2,Benfica
+Boavista,0,3,Sporting CP
+Sporting CP,4,1,Gil Vicente FC
+Portimonense,2,3,Sporting CP
+Sporting CP,4,0,Santa Clara
+Moreirense,1,2,Benfica
+Benfica,2,0,Arouca
+Gil Vicente FC,0,2,Benfica
+Benfica,2,1,Tondela
+Santa Clara,0,5,Benfica
+Benfica,3,1,Boavista
+Vitória,1,3,Benfica
+Benfica,0,1,Portimonense
+Vizela,0,1,Benfica
+Estoril,1,1,Benfica
+Benfica,6,1,Braga
+B-SAD,0,7,Benfica
+Famalicão,1,4,Benfica
+Benfica,7,1,Marítimo
+Porto,3,1,Benfica
+Benfica,2,0,Paços
+Benfica,1,1,Moreirense
+Arouca,0,2,Benfica
+Benfica,1,2,Gil Vicente FC
+Tondela,1,3,Benfica
+Benfica,2,1,Santa Clara
+Boavista,2,2,Benfica
+Benfica,3,0,Vitória
+Portimonense,1,2,Benfica
+Benfica,1,1,Vizela
+Benfica,2,1,Estoril
+Braga,3,2,Benfica
+Benfica,3,1,B-SAD
+Benfica,0,0,Famalicão
+Marítimo,0,1,Benfica
+Benfica,0,1,Porto
+Paços,0,2,Benfica
+Porto,2,0,B-SAD
+Famalicão,1,2,Porto
+Marítimo,1,1,Porto
+Porto,3,0,Arouca
+Porto,5,0,Moreirense
+Gil Vicente FC,1,2,Porto
+Porto,2,1,Paços
+Tondela,1,3,Porto
+Porto,4,1,Boavista
+Santa Clara,0,3,Porto
+Porto,2,1,Vitória
+Portimonense,0,3,Porto
+Porto,1,0,Braga
+Vizela,0,4,Porto
+Estoril,2,3,Porto
+B-SAD,1,4,Porto
+Porto,3,1,Famalicão
+Porto,2,1,Marítimo
+Arouca,0,2,Porto
+Moreirense,0,1,Porto
+Porto,1,1,Gil Vicente FC
+Paços,2,4,Porto
+Porto,4,0,Tondela
+Boavista,0,1,Porto
+Porto,3,0,Santa Clara
+Vitória,0,1,Porto
+Porto,7,0,Portimonense
+Braga,1,0,Porto
+Porto,4,2,Vizela
+Porto,2,0,Estoril

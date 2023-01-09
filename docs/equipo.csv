@@ -1,32 +1,33 @@
-Ajax,ajax.png,Paises Bajos,14
-Atalanta,atalanta.png,Italia,6
-Atlético,atletico.png,España,11
-Barcelona,barcelona.png,España,17
-Bayern,bayern.png,Alemania,16
-Benfica,benfica.png,Portugal,15
-Besiktas,besiktas.png,Turquía,2
-Chelsea,chelsea.png,Inglaterra,1
-Club Brugge,club_brugge.png,Bélgica,26
-Dortmund,dortmund.png,Alemania,27
-Dynamo Kyiv,dynamo_kyiv.png,Ucrania,28
-Internazionale,internazionale.png,Italia,29
-Juventus,juventus.png,Italia,9
-Leipzig,leipzig.png,Alemania,8
-Liverpool,liverpool.png,Inglaterra,24
-LOSC,losc.png,Francia,23
-Malmö,malmo.png,Suecia,22
-Man. City,man_city.png,Inglaterra,21
-Man. United,man_united.png,Inglaterra,20
-Milan,milan.png,Italia,19
-Paris,paris.png,Francia,14
-Porto,porto.png,Portugal,13
-Real Madrid,real_madrid.png,España,12
-Salzburg,salzburg.png,Austria,11
-Sevilla,sevilla.png,España,10
-Shakhtar Donetsk,shakhtar_donetsk.png,Ucrania,14
-Sheriff,sheriff.png,Moldavia,22
-Sporting CP,sporting_cp.png,Portugal,25
-Villarreal,villarreal.png,España,30
-Wolfsburg,wolfsburg.png,Alemania,4
-Young Boys,young_boys.png,Suiza,7
-Zenit,zenit.png,Rusia,13
+Equipo,Imagen,Pais,Indice
+Ajax,ajax.png,Paises Bajos,1
+Atalanta,atalanta.png,Italia,2
+Atletico,atletico.png,España,3
+Barcelona,barcelona.png,España,4
+Bayern,bayern.png,Alemania,5
+Benfica,benfica.png,Portugal,6
+Besiktas,besiktas.png,Turquía,7
+Chelsea,chelsea.png,Inglaterra,8
+Club Brugge,club_brugge.png,Bélgica,9
+Dortmund,dortmund.png,Alemania,10
+Dynamo Kyiv,dynamo_kyiv.png,Ucrania,11
+Internazionale,internazionale.png,Italia,12
+Juventus,juventus.png,Italia,13
+Leipzig,leipzig.png,Alemania,14
+Liverpool,liverpool.png,Inglaterra,15
+LOSC,losc.png,Francia,16
+Malmö,malmo.png,Suecia,17
+Man. City,man_city.png,Inglaterra,18
+Man. United,man_united.png,Inglaterra,19
+Milan,milan.png,Italia,20
+Paris,paris.png,Francia,21
+Porto,porto.png,Portugal,22
+Real Madrid,real_madrid.png,España,23
+Salzburg,salzburg.png,Austria,24
+Sevilla,sevilla.png,España,25
+Shakhtar Donetsk,shakhtar_donetsk.png,Ucrania,26
+Sheriff,sheriff.png,Moldavia,27
+Sporting CP,sporting_cp.png,Portugal,28
+Villarreal,villarreal.png,España,29
+Wolfsburg,wolfsburg.png,Alemania,30
+Young Boys,young_boys.png,Suiza,31
+Zenit,zenit.png,Rusia,32

@@ -36,7 +36,7 @@ class Partido(db.Model):
     @fecha.deleter
     def fecha(self):
         del self.__fecha  
-    
+
     @hybrid_property
     def equipo_local_id(self):
         return self.__equipo_local_id

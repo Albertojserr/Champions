@@ -1,0 +1,171 @@
+Local,GolesLocal,GolesVisitante,Visitante
+Celta Vigo,1,2,Atlético
+Atlético,1,0,Elche
+Atlético,2,2,Villarreal
+Espanyol,1,2,Atlético
+Atlético,0,0,Athletic Club
+Getafe,1,2,Atlético
+Alavés,1,0,Atlético
+Atlético,2,0,Barcelona
+Atlético,2,2,Real Sociedad
+Levante,2,2,Atlético
+Atlético,3,0,Betis
+Valencia,3,3,Atlético
+Atlético,1,0,Osasuna
+Cádiz,1,4,Atlético
+Atlético,1,2,Mallorca
+Real Madrid,2,0,Atlético
+Sevilla,2,1,Atlético
+Granada,2,1,Atlético
+Atlético,2,0,Rayo Vallecano
+Villarreal,2,2,Atlético
+Atlético,3,2,Valencia
+Barcelona,4,2,Atlético
+Atlético,4,3,Getafe
+Atlético,0,1,Levante
+Osasuna,0,3,Atlético
+Atlético,2,0,Celta Vigo
+Betis,1,3,Atlético
+Atlético,2,1,Cádiz
+Rayo Vallecano,0,1,Atlético
+Atlético,4,1,Alavés
+Mallorca,1,0,Atlético
+Atlético,2,1,Espanyol
+Atlético,0,0,Granada
+Athletic Club,2,0,Atlético
+Atlético,1,0,Real Madrid
+Elche,0,2,Atlético
+Atlético,1,1,Sevilla
+Real Sociedad,1,2,Atlético
+Barcelona,4,2,Real Sociedad
+Athletic Club,1,1,Barcelona
+Barcelona,2,1,Getafe
+Barcelona,1,1,Granada
+Cádiz,0,0,Barcelona
+Barcelona,3,0,Levante
+Barcelona,3,1,Valencia
+Barcelona,1,2,Real Madrid
+Rayo Vallecano,1,0,Barcelona
+Barcelona,1,1,Alavés
+Celta Vigo,3,3,Barcelona
+Barcelona,1,0,Espanyol
+Villarreal,1,3,Barcelona
+Barcelona,0,1,Betis
+Osasuna,2,2,Barcelona
+Barcelona,3,2,Elche
+Sevilla,1,1,Barcelona
+Mallorca,0,1,Barcelona
+Granada,1,1,Barcelona
+Alavés,0,1,Barcelona
+Espanyol,2,2,Barcelona
+Valencia,1,4,Barcelona
+Barcelona,4,0,Athletic Club
+Elche,1,2,Barcelona
+Barcelona,4,0,Osasuna
+Real Madrid,0,4,Barcelona
+Barcelona,1,0,Sevilla
+Levante,2,3,Barcelona
+Barcelona,0,1,Cádiz
+Real Sociedad,0,1,Barcelona
+Barcelona,0,1,Rayo Vallecano
+Barcelona,2,1,Mallorca
+Betis,1,2,Barcelona
+Barcelona,3,1,Celta Vigo
+Getafe,0,0,Barcelona
+Barcelona,0,2,Villarreal
+Alavés,1,4,Real Madrid
+Levante,3,3,Real Madrid
+Betis,0,1,Real Madrid
+Real Madrid,5,2,Celta Vigo
+Valencia,1,2,Real Madrid
+Real Madrid,6,1,Mallorca
+Real Madrid,0,0,Villarreal
+Espanyol,2,1,Real Madrid
+Real Madrid,0,0,Osasuna
+Elche,1,2,Real Madrid
+Real Madrid,2,1,Rayo Vallecano
+Granada,1,4,Real Madrid
+Real Madrid,2,1,Sevilla
+Real Madrid,1,0,Athletic Club
+Real Sociedad,0,2,Real Madrid
+Real Madrid,0,0,Cádiz
+Athletic Club,1,2,Real Madrid
+Getafe,1,0,Real Madrid
+Real Madrid,4,1,Valencia
+Real Madrid,2,2,Elche
+Real Madrid,1,0,Granada
+Villarreal,0,0,Real Madrid
+Real Madrid,3,0,Alavés
+Rayo Vallecano,0,1,Real Madrid
+Real Madrid,4,1,Real Sociedad
+Mallorca,0,3,Real Madrid
+Celta Vigo,1,2,Real Madrid
+Real Madrid,2,0,Getafe
+Sevilla,2,3,Real Madrid
+Osasuna,1,3,Real Madrid
+Real Madrid,4,0,Espanyol
+Real Madrid,6,0,Levante
+Cádiz,1,1,Real Madrid
+Real Madrid,0,0,Betis
+Sevilla,3,0,Rayo Vallecano
+Getafe,0,1,Sevilla
+Elche,1,1,Sevilla
+Real Sociedad,0,0,Sevilla
+Sevilla,3,1,Valencia
+Sevilla,2,0,Espanyol
+Granada,1,0,Sevilla
+Celta Vigo,0,1,Sevilla
+Sevilla,5,3,Levante
+Mallorca,1,1,Sevilla
+Sevilla,2,0,Osasuna
+Betis,0,2,Sevilla
+Sevilla,2,2,Alavés
+Sevilla,1,0,Villarreal
+Athletic Club,0,1,Sevilla
+Cádiz,0,1,Sevilla
+Sevilla,1,0,Getafe
+Valencia,1,1,Sevilla
+Sevilla,2,2,Celta Vigo
+Osasuna,0,0,Sevilla
+Sevilla,2,0,Elche
+Espanyol,1,1,Sevilla
+Sevilla,2,1,Betis
+Alavés,0,0,Sevilla
+Rayo Vallecano,1,1,Sevilla
+Sevilla,0,0,Real Sociedad
+Sevilla,4,2,Granada
+Levante,2,3,Sevilla
+Sevilla,1,1,Cádiz
+Villarreal,1,1,Sevilla
+Sevilla,0,0,Mallorca
+Sevilla,1,0,Athletic Club
+Villarreal,0,0,Granada
+Espanyol,0,0,Villarreal
+Mallorca,0,0,Villarreal
+Villarreal,4,1,Elche
+Villarreal,2,0,Betis
+Villarreal,1,2,Osasuna
+Athletic Club,2,1,Villarreal
+Villarreal,3,3,Cádiz
+Valencia,2,0,Villarreal
+Villarreal,1,0,Getafe
+Celta Vigo,1,1,Villarreal
+Villarreal,2,0,Rayo Vallecano
+Real Sociedad,1,3,Villarreal
+Villarreal,5,2,Alavés
+Villarreal,5,0,Levante
+Elche,1,0,Villarreal
+Villarreal,3,0,Mallorca
+Betis,0,2,Villarreal
+Granada,1,4,Villarreal
+Villarreal,5,1,Espanyol
+Osasuna,1,0,Villarreal
+Villarreal,1,0,Celta Vigo
+Cádiz,1,0,Villarreal
+Levante,2,0,Villarreal
+Villarreal,1,1,Athletic Club
+Getafe,1,2,Villarreal
+Villarreal,2,0,Valencia
+Alavés,2,1,Villarreal
+Rayo Vallecano,1,5,Villarreal
+Villarreal,1,2,Real Sociedad

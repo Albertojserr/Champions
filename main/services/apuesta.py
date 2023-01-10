@@ -13,8 +13,7 @@ cuota_repositorio = CuotaRepositorio()
 class ApuestaService:
 
     def __init__(self):
-        self.df1 = pd.read_csv ('golesLigaVisitante.csv')
-        self.df2 = pd.read_csv ('golesLigaLocal.csv')
+        self.df1 = pd.read_csv('golesChampions.csv')
 
     def agregar_apuesta(self, apuesta, local, visitante):
         cuota = cuota_repositorio.find_by_partido(apuesta)
@@ -47,9 +46,9 @@ class ApuestaService:
 class CuotaStrategy(ABC):
     def calcular_cuota(self, local, visitante):
         """Calcular probabilidad"""
-        if local in self.df2.index and visitante in self.df1.index:
-            cuota_local = self.df2.at[local, 'Goles'] * self.df1.at[visitante, 'Goles']
-            cuota_visitante = self.df1.at[visitante, 'Goles'] * self.df2.at[local, 'Goles']
+        if local in self.df1.index and visitante in self.df1.index:
+            cuota_local = self.df1.at[local, 'GolesLocal'] * self.df1.at[visitante, 'GolesVisitante']
+            cuota_visitante = self.df1.at[visitante, 'GolesVisitante'] * self.df1.at[local, 'GolesLocal']
             prob_local, prob_visitante, prob_empate= 0, 0, 0
             for x in range(0, 11): # Numero de goles del equipo local
                 for y in range(0, 11): #Numero de goles del equipo visitante

@@ -12,6 +12,8 @@ class Prediccion:
         self.equipos=list(self.equipos)
         self.años=["2020-21","2019-20","2018-19","2017-18","2015-16","2014-15","2013-14","2012-13","2011-12","2010-11","2009-10","2008-09"
         ,"2007-08","2006-07","2005-06","2004-05","2003-04","2002-03","2001-02","2000-01"]
+
+    def Champions(self):
         self.Champions={}
         for año in self.años:
             self.Champions[f'{año}']=pd.read_csv(f'Datos/Champions/resultados{año}.csv')
@@ -31,7 +33,7 @@ class Prediccion:
                     self.golesVisitante[self.Champions[año].iloc[i]['Visitante']]+=int(self.Champions[año].iloc[i]['GolesVisitante'])
             print(f'año {año} terminado')
 
-        print(self.golesLocal)
+        #print(self.golesLocal)
 
     def Ligas(self):
         self.golesLigaLocal={}
@@ -58,19 +60,31 @@ class Prediccion:
 
         #print(golesLigaVisitante)
         #print(golesLigaLocal)
+    def convertirChampions(self):
+        df1= pd.DataFrame([[key, self.golesLocal[key]] for key in self.golesLocal.keys()], columns=['EquipoEnLocal', 'golesLocal'])
+        df1.to_csv('golesLocal.csv', index=False)
+        df2 = pd.DataFrame([[key, self.golesVisitante[key]] for key in self.golesVisitante.keys()], columns=['EquipoEnVisitante', 'golesVisitante'])
+        df2.to_csv('golesVistante.csv', index=False)
+        df3 = pd.concat([df1, df2], axis=1)
+        df3.to_csv('golesChampions.csv', index=False)
+        print(df3)
 
-    def convertir(self):
-        df1 = pd.DataFrame([[key, self.golesLigaVisitante[key]] for key in self.golesLigaVisitante.keys()], columns=['Equipo', 'goles'])
-        df1.to_csv('golesLigaVisitante.csv', index=False)
-        df2 = pd.DataFrame([[key, self.golesLigaLocal[key]] for key in self.golesLigaLocal.keys()], columns=['Equipo', 'goles'])
-        df2.to_csv('golesLigaLocal.csv', index=False)
-        print(df1)
-        print(df2)
+
+    def convertirLiga(self):
+        df3 = pd.DataFrame([[key, self.golesLigaVisitante[key]] for key in self.golesLigaVisitante.keys()], columns=['Equipo', 'goles'])
+        df3.to_csv('golesLigaVisitante.csv', index=False)
+        df4 = pd.DataFrame([[key, self.golesLigaLocal[key]] for key in self.golesLigaLocal.keys()], columns=['Equipo', 'goles'])
+        df4.to_csv('golesLigaLocal.csv', index=False)
+        print(df3)
+        print(df4)
+
 
 
 
 if __name__ == '__main__':
     pred=Prediccion()
-    pred.Ligas()
-    pred.convertir()
+    pred.Champions()
+    pred.convertirChampions()
+    #pred.Ligas()
+    #pred.convertirLiga()
 

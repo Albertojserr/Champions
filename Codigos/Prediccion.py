@@ -68,6 +68,7 @@ class Prediccion:
         print(df2)
 
 
+
 if __name__ == '__main__':
     pred=Prediccion()
     pred.Ligas()

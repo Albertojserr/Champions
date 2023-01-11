@@ -11,7 +11,7 @@ equipos=list(equipos)
 print(type(equipos))
 print(equipos)
 for año in años:
-    data=pd.read_csv(f'Datos/Champions/resultados{año}.csv')
+    data=pd.read_csv(f'Datos/resultados{año}.csv')
     dic={}
     for nombre in data.Local.unique():
         lista=str(nombre).lower().split()
@@ -27,7 +27,7 @@ for año in años:
                 dic[nombre]='Man. City'
         elif 'lille' in lista:
             dic[nombre]='LOSC'
-        elif 'París' in lista:
+        elif 'parís' in lista:
             dic[nombre]='Paris'
         elif 'sporting' in lista:
             if 'portugal' in lista:
@@ -39,9 +39,46 @@ for año in años:
                 dic[nombre]='Real Madrid'
         elif 'young' in lista:
             dic[nombre]='Young Boys'
+        elif 'oporto' in lista:
+            dic[nombre]='Porto'
+        elif 'beşiktaş' in lista:
+            dic[nombre]='Besiktas'
 
     for nombre in dic:
         data["Local"]=data["Local"].replace(nombre,dic[nombre])
+
+    dic={}
+    for nombre in data.Visitante.unique():
+        lista=str(nombre).lower().split()
+        if 'inter' in lista:
+            dic[nombre]='Internazionale'
+        for equipo in equipos:
+            if str(equipo).lower() in lista:
+                dic[nombre]=str(equipo)
+        if 'manchester' in lista:
+            if 'united' in lista:
+                dic[nombre]='Man. United'
+            elif 'city' in lista:
+                dic[nombre]='Man. City'
+        elif 'lille' in lista:
+            dic[nombre]='LOSC'
+        elif 'parís' in lista:
+            dic[nombre]='Paris'
+        elif 'sporting' in lista:
+            if 'portugal' in lista:
+                dic[nombre]='Sporting CP'
+        elif 'donetsk' in lista:
+            dic[nombre]='Shakhtar Donetsk'
+        elif 'real' in lista:
+            if 'madrid' in lista:
+                dic[nombre]='Real Madrid'
+        elif 'young' in lista:
+            dic[nombre]='Young Boys'
+        elif 'oporto' in lista:
+            dic[nombre]='Porto'
+        elif 'beşiktaş' in lista:
+            dic[nombre]='Besiktas'
+    for nombre in dic:
         data["Visitante"]=data["Visitante"].replace(nombre,dic[nombre])
     data.to_csv(f'Datos/resultados{año}.csv',index=False)
 

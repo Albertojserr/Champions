@@ -62,9 +62,7 @@ class CuotaStrategy(ABC):
 
             puntos_local = 3*prob_local + prob_empate
             puntos_visitante = 3*prob_visitante + prob_empate
-            prob_local = round(puntos_local/(puntos_local + puntos_visitante), 2)
-            prob_visitante = round(puntos_visitante/(puntos_local + puntos_visitante), 2)
-            prob_empate = round(1 - prob_local - prob_visitante, 2)
+
             return (puntos_local, puntos_visitante)
 
         else:

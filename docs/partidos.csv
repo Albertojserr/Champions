@@ -1,96 +1,387 @@
-14/09/2021 16:45,29,2,33,34,33
-14/09/2021 16:45,31,19,33,34,33
-14/09/2021 16:45,25,24,33,34,33
-14/09/2021 19:00,11,6,33,34,33
-14/09/2021 19:00,4,5,33,34,33
-14/09/2021 19:00,16,30,33,34,33
-14/09/2021 19:00,17,13,33,34,33
-14/09/2021 19:00,8,32,33,34,33
-15/09/2021 16:45,7,10,33,34,33
-15/09/2021 16:45,27,26,33,34,33
-15/09/2021 19:00,9,21,33,34,33
-15/09/2021 19:00,18,14,33,34,33
-15/09/2021 19:00,3,22,33,34,33
-15/09/2021 19:00,15,20,33,34,33
-15/09/2021 19:00,28,1,33,34,33
-15/09/2021 19:00,12,23,33,34,33
-28/09/2021 16:45,1,7,33,34,33
-28/09/2021 16:45,26,12,33,34,33
-28/09/2021 19:00,21,18,33,34,33
-28/09/2021 19:00,14,9,33,34,33
-28/09/2021 19:00,22,15,33,34,33
-28/09/2021 19:00,20,3,33,34,33
-28/09/2021 19:00,10,28,33,34,33
-28/09/2021 19:00,23,27,33,34,33
-29/09/2021 16:45,2,31,33,34,33
-29/09/2021 16:45,32,17,33,34,33
-29/09/2021 19:00,5,11,33,34,33
-29/09/2021 19:00,6,4,33,34,33
-29/09/2021 19:00,19,29,33,34,33
-29/09/2021 19:00,30,25,33,34,33
-29/09/2021 19:00,24,16,33,34,33
-29/09/2021 19:00,13,8,33,34,33
-19/10/2021 16:45,9,18,33,34,33
-19/10/2021 16:45,7,28,33,34,33
-19/10/2021 19:00,21,14,33,34,33
-19/10/2021 19:00,22,20,33,34,33
-19/10/2021 19:00,3,15,33,34,33
-19/10/2021 19:00,1,10,33,34,33
-19/10/2021 19:00,12,27,33,34,33
-19/10/2021 19:00,26,23,33,34,33
-20/10/2021 16:45,4,11,33,34,33
-20/10/2021 16:45,24,30,33,34,33
-20/10/2021 19:00,6,5,33,34,33
-20/10/2021 19:00,31,29,33,34,33
-20/10/2021 19:00,19,2,33,34,33
-20/10/2021 19:00,16,25,33,34,33
-20/10/2021 19:00,8,17,33,34,33
-20/10/2021 19:00,32,13,33,34,33
-02/11/2021 17:45,30,24,33,34,33
-02/11/2021 17:45,17,8,33,34,33
-02/11/2021 20:00,11,4,33,34,33
-02/11/2021 20:00,5,6,33,34,33
-02/11/2021 20:00,29,31,33,34,33
-02/11/2021 20:00,2,19,33,34,33
-02/11/2021 20:00,25,16,33,34,33
-02/11/2021 20:00,13,32,33,34,33
-03/11/2021 17:45,20,22,33,34,33
-03/11/2021 17:45,23,26,33,34,33
-03/11/2021 20:00,18,9,33,34,33
-03/11/2021 20:00,14,21,33,34,33
-03/11/2021 20:00,15,3,33,34,33
-03/11/2021 20:00,28,7,33,34,33
-03/11/2021 20:00,10,1,33,34,33
-03/11/2021 20:00,27,12,33,34,33
-23/11/2021 17:45,11,5,33,34,33
-23/11/2021 17:45,29,19,33,34,33
-23/11/2021 20:00,4,6,33,34,33
-23/11/2021 20:00,31,2,33,34,33
-23/11/2021 20:00,16,24,33,34,33
-23/11/2021 20:00,25,30,33,34,33
-23/11/2021 20:00,17,32,33,34,33
-23/11/2021 20:00,8,13,33,34,33
-24/11/2021 17:45,7,1,33,34,33
-24/11/2021 17:45,12,26,33,34,33
-24/11/2021 20:00,9,14,33,34,33
-24/11/2021 20:00,18,21,33,34,33
-24/11/2021 20:00,3,20,33,34,33
-24/11/2021 20:00,15,22,33,34,33
-24/11/2021 20:00,28,10,33,34,33
-24/11/2021 20:00,27,23,33,34,33
-07/12/2021 17:45,21,9,33,34,33
-07/12/2021 17:45,14,18,33,34,33
-07/12/2021 20:00,20,15,33,34,33
-07/12/2021 20:00,22,3,33,34,33
-07/12/2021 20:00,10,7,33,34,33
-07/12/2021 20:00,1,28,33,34,33
-07/12/2021 20:00,23,12,33,34,33
-07/12/2021 20:00,26,27,33,34,33
-08/12/2021 17:45,13,17,33,34,33
-08/12/2021 17:45,32,8,33,34,33
-08/12/2021 20:00,6,11,33,34,33
-08/12/2021 20:00,5,4,33,34,33
-08/12/2021 20:00,19,31,33,34,33
-08/12/2021 20:00,2,29,33,34,33
-08/12/2021 20:00,24,25,33,34,33
-08/12/2021 20:00,30,16,33,34,33
+Local,GolesLocal,GolesVisitante,Visitante
+Ajax,1.0,0.0,Liverpool
+Ajax,0.0,2.0,Atalanta
+Ajax,2.0,0.0,fc midtjylland
+Atalanta,1.0,0.0,Liverpool
+Atalanta,0.0,2.0,Ajax
+Atalanta,2.0,0.0,fc midtjylland
+Atletico,4.0,0.0,Bayern
+Atletico,3.0,1.0,red bull salzburgo
+Atletico,2.0,0.0,fc lokomotiv moscu
+Barcelona,0.0,2.0,Juventus
+Barcelona,3.0,0.0,fc dinamo de kiev
+Barcelona,2.0,1.0,ferencvarosi tc
+Bayern,4.0,0.0,Atletico
+Bayern,3.0,1.0,red bull salzburgo
+Bayern,2.0,0.0,fc lokomotiv moscu
+Chelsea,0.0,4.0,Sevilla
+Chelsea,3.0,2.0,fc krasnodar
+Chelsea,1.0,0.0,stade rennais fc
+Dortmund,1.0,2.0,Zenit
+Dortmund,1.0,1.0,società sportiva lazio
+Dortmund,1.0,2.0,club brujas
+Juventus,0.0,2.0,Barcelona
+Juventus,3.0,0.0,fc dinamo de kiev
+Juventus,2.0,1.0,ferencvarosi tc
+Leipzig,1.0,2.0,Paris
+Leipzig,1.0,0.0,Man. United
+Leipzig,5.0,1.0,estambul başakşehir fk
+Liverpool,1.0,0.0,Ajax
+Liverpool,0.0,2.0,Atalanta
+Liverpool,2.0,0.0,fc midtjylland
+Man. City,0.0,0.0,futbol club oporto
+Man. City,2.0,0.0,olympiakos de el pireo
+Man. City,3.0,0.0,olympique de marsella
+Man. United,1.0,2.0,Paris
+Man. United,1.0,0.0,Leipzig
+Man. United,5.0,1.0,estambul başakşehir fk
+Milan,2.0,3.0,Real Madrid
+Milan,3.0,2.0,Shakhtar Donetsk
+Milan,2.0,0.0,borussia monchengladbach
+Paris,1.0,2.0,Man. United
+Paris,1.0,0.0,Leipzig
+Paris,5.0,1.0,estambul başakşehir fk
+Real Madrid,2.0,3.0,Shakhtar Donetsk
+Real Madrid,3.0,2.0,Milan
+Real Madrid,2.0,0.0,borussia monchengladbach
+Sevilla,0.0,4.0,Chelsea
+Sevilla,3.0,2.0,fc krasnodar
+Sevilla,1.0,0.0,stade rennais fc
+Shakhtar Donetsk,2.0,3.0,Real Madrid
+Shakhtar Donetsk,3.0,2.0,Milan
+Shakhtar Donetsk,2.0,0.0,borussia monchengladbach
+Zenit,1.0,2.0,Dortmund
+Zenit,1.0,1.0,società sportiva lazio
+Zenit,1.0,2.0,club brujas
+Ajax,2.0,2.0,valencia club de futbol
+Ajax,0.0,3.0,Chelsea
+Ajax,4.0,1.0,LOSC
+Atalanta,5.0,1.0,Man. City
+Atalanta,1.0,1.0,Shakhtar Donetsk
+Atalanta,2.0,0.0,građanski nogometni klub dinamo zagreb
+Atletico,1.0,0.0,Juventus
+Atletico,3.0,0.0,bayer 04 leverkusen
+Atletico,2.0,1.0,fc lokomotiv moscu
+Barcelona,3.0,1.0,Dortmund
+Barcelona,2.0,1.0,Milan
+Barcelona,0.0,0.0,sportovni klub slavia praga
+Bayern,3.0,1.0,tottenham hotspur football club
+Bayern,2.0,0.0,olympiakos de el pireo
+Bayern,3.0,0.0,estrella roja de belgrado
+Benfica,0.0,2.0,Leipzig
+Benfica,2.0,2.0,olympique lyon
+Benfica,2.0,1.0,Zenit
+Chelsea,2.0,2.0,valencia club de futbol
+Chelsea,0.0,3.0,Ajax
+Chelsea,4.0,1.0,LOSC
+Dortmund,3.0,1.0,Barcelona
+Dortmund,2.0,1.0,Milan
+Dortmund,0.0,0.0,sportovni klub slavia praga
+Juventus,1.0,0.0,Atletico
+Juventus,3.0,0.0,bayer 04 leverkusen
+Juventus,2.0,1.0,fc lokomotiv moscu
+LOSC,2.0,2.0,valencia club de futbol
+LOSC,0.0,3.0,Chelsea
+LOSC,4.0,1.0,Ajax
+Leipzig,0.0,2.0,olympique lyon
+Leipzig,2.0,2.0,Benfica
+Leipzig,2.0,1.0,Zenit
+Liverpool,1.0,1.0,società sportiva calcio napoli
+Liverpool,4.0,3.0,red bull salzburgo
+Liverpool,2.0,1.0,krc genk
+Man. City,5.0,1.0,Atalanta
+Man. City,1.0,1.0,Shakhtar Donetsk
+Man. City,2.0,0.0,građanski nogometni klub dinamo zagreb
+Milan,3.0,1.0,Barcelona
+Milan,2.0,1.0,Dortmund
+Milan,0.0,0.0,sportovni klub slavia praga
+Paris,3.0,0.0,Real Madrid
+Paris,1.0,0.0,club brujas
+Paris,5.0,0.0,galatasaray spor kulubu futbol
+Real Madrid,3.0,0.0,Paris
+Real Madrid,1.0,0.0,club brujas
+Real Madrid,5.0,0.0,galatasaray spor kulubu futbol
+Shakhtar Donetsk,5.0,1.0,Man. City
+Shakhtar Donetsk,1.0,1.0,Atalanta
+Shakhtar Donetsk,2.0,0.0,građanski nogometni klub dinamo zagreb
+Zenit,0.0,2.0,Leipzig
+Zenit,2.0,2.0,olympique lyon
+Zenit,2.0,1.0,Benfica
+Ajax,5.0,1.0,Bayern
+Ajax,1.0,1.0,Benfica
+Ajax,2.0,0.0,aek atenas f.c.
+Atletico,2.0,0.0,Dortmund
+Atletico,2.0,0.0,association sportive de monaco football club
+Atletico,3.0,1.0,club brugge
+Barcelona,1.0,1.0,tottenham hotspur football club
+Barcelona,4.0,0.0,psv eindhoven
+Barcelona,2.0,0.0,Milan
+Bayern,5.0,1.0,Benfica
+Bayern,1.0,1.0,Ajax
+Bayern,2.0,0.0,aek atenas f.c.
+Benfica,5.0,1.0,Bayern
+Benfica,1.0,1.0,Ajax
+Benfica,2.0,0.0,aek atenas f.c.
+Dortmund,2.0,0.0,Atletico
+Dortmund,2.0,0.0,association sportive de monaco football club
+Dortmund,3.0,1.0,club brugge
+Juventus,1.0,2.0,Man. United
+Juventus,1.0,0.0,valencia club de futbol
+Juventus,3.0,0.0,Young Boys
+Liverpool,2.0,2.0,Paris
+Liverpool,2.0,1.0,società sportiva calcio napoli
+Liverpool,6.0,1.0,estrella roja de belgrado
+Man. City,6.0,0.0,Shakhtar Donetsk
+Man. City,1.0,2.0,olympique de lyon
+Man. City,2.0,1.0,tsg 1899 hoffenheim
+Man. United,1.0,2.0,Juventus
+Man. United,1.0,0.0,valencia club de futbol
+Man. United,3.0,0.0,Young Boys
+Milan,1.0,1.0,Barcelona
+Milan,4.0,0.0,tottenham hotspur football club
+Milan,2.0,0.0,psv eindhoven
+Paris,2.0,2.0,società sportiva calcio napoli
+Paris,2.0,1.0,Liverpool
+Paris,6.0,1.0,estrella roja de belgrado
+Real Madrid,3.0,0.0,associazione sportiva roma
+Real Madrid,0.0,3.0,pfc cska moscu
+Real Madrid,2.0,1.0,football club viktoria pilsen
+Shakhtar Donetsk,6.0,0.0,Man. City
+Shakhtar Donetsk,1.0,2.0,olympique de lyon
+Shakhtar Donetsk,2.0,1.0,tsg 1899 hoffenheim
+Young Boys,1.0,2.0,Juventus
+Young Boys,1.0,0.0,Man. United
+Young Boys,3.0,0.0,valencia club de futbol
+Atletico,1.0,1.0,Chelsea
+Atletico,3.0,3.0,associazione sportiva roma
+Atletico,6.0,0.0,fk qarabağ agdam
+Barcelona,0.0,0.0,Juventus
+Barcelona,2.0,0.0,olympiacos de el pireo
+Barcelona,2.0,1.0,sporting de lisboa
+Bayern,3.0,1.0,Paris
+Bayern,3.0,0.0,royal sporting club anderlecht
+Bayern,3.0,0.0,celtic football club
+Benfica,0.0,1.0,Man. United
+Benfica,0.0,2.0,fussballclub basilea
+Benfica,1.0,2.0,pfc cska moscu
+Chelsea,1.0,1.0,Atletico
+Chelsea,3.0,3.0,associazione sportiva roma
+Chelsea,6.0,0.0,fk qarabağ agdam
+Dortmund,3.0,2.0,Real Madrid
+Dortmund,1.0,1.0,tottenham hotspur football club
+Dortmund,3.0,0.0,apoel de nicosia
+Juventus,0.0,0.0,Barcelona
+Juventus,2.0,0.0,olympiacos de el pireo
+Juventus,2.0,1.0,sporting de lisboa
+Leipzig,0.0,3.0,association sportive de monaco football club
+Leipzig,1.0,2.0,futbol club oporto
+Leipzig,1.0,4.0,beşiktaş jimnastik kulubu
+Liverpool,5.0,1.0,fc spartak de moscu
+Liverpool,1.0,1.0,Sevilla
+Liverpool,1.0,1.0,nk maribor
+Man. City,2.0,1.0,Shakhtar Donetsk
+Man. City,2.0,1.0,società sportiva calcio napoli
+Man. City,3.0,1.0,feyenoord rotterdam
+Man. United,0.0,1.0,Benfica
+Man. United,0.0,2.0,fussballclub basilea
+Man. United,1.0,2.0,pfc cska moscu
+Paris,3.0,1.0,Bayern
+Paris,3.0,0.0,royal sporting club anderlecht
+Paris,3.0,0.0,celtic football club
+Real Madrid,3.0,2.0,Dortmund
+Real Madrid,1.0,1.0,tottenham hotspur football club
+Real Madrid,3.0,0.0,apoel de nicosia
+Sevilla,5.0,1.0,fc spartak de moscu
+Sevilla,1.0,1.0,Liverpool
+Sevilla,1.0,1.0,nk maribor
+Shakhtar Donetsk,2.0,1.0,Man. City
+Shakhtar Donetsk,2.0,1.0,società sportiva calcio napoli
+Shakhtar Donetsk,3.0,1.0,feyenoord rotterdam
+Barcelona,2.0,1.0,BayerLeverkusen
+Barcelona,3.0,0.0,BATEBorisov
+Barcelona,6.0,1.0,Roma
+Benfica,2.0,0.0,Astana
+Benfica,2.0,1.0,Galatasaray
+Benfica,1.0,2.0,AtléticodeMadrid
+Chelsea,4.0,0.0,MaccabiTelAviv
+Chelsea,2.0,1.0,DinamoKiev
+Chelsea,2.0,0.0,Porto
+Juventus,2.0,0.0,Sevilla
+Juventus,0.0,0.0,BorussiaMönchengladbach
+Juventus,1.0,0.0,ManchesterCity
+Malmö,0.0,2.0,RealMadrid
+Malmö,1.0,0.0,ShakhtarDonetsk
+Malmö,0.0,5.0,ParísSaintGermain
+Porto,2.0,1.0,Chelsea
+Porto,2.0,0.0,MaccabiTelAviv
+Porto,0.0,2.0,DinamoKiev
+Sevilla,3.0,0.0,BorussiaMönchengladbach
+Sevilla,1.0,3.0,ManchesterCity
+Sevilla,1.0,0.0,Juventus
+Ajax,1.0,1.0,ParísSaint-Germain
+Ajax,0.0,2.0,Barcelona
+Ajax,4.0,0.0,APOEL
+Barcelona,1.0,0.0,APOEL
+Barcelona,3.0,1.0,Ajax
+Barcelona,3.0,1.0,ParísSaint-Germain
+Benfica,0.0,2.0,ZenitSanPetersburgo
+Benfica,1.0,0.0,Mónaco
+Benfica,0.0,0.0,BayerLeverkusen
+Chelsea,1.0,1.0,Schalke04
+Chelsea,6.0,0.0,Maribor
+Chelsea,3.0,1.0,SportingdeLisboa
+Juventus,2.0,0.0,Malmö
+Juventus,3.0,2.0,Olympiacos
+Juventus,0.0,0.0,AtléticodeMadrid
+Liverpool,2.0,1.0,LudogoretsRazgrad
+Liverpool,0.0,3.0,RealMadrid
+Liverpool,1.0,1.0,Basel
+Malmö,2.0,0.0,Olympiacos
+Malmö,0.0,2.0,AtléticodeMadrid
+Malmö,0.0,2.0,Juventus
+Porto,6.0,0.0,BATEBorisov
+Porto,2.0,1.0,AthleticClub
+Ajax,1.0,1.0,Milan
+Ajax,1.0,0.0,Celtic
+Ajax,2.0,1.0,Barcelona
+Barcelona,4.0,0.0,Ajax
+Barcelona,3.0,1.0,Milan
+Barcelona,6.0,1.0,Celtic 
+Bayern,3.0,0.0,CSKA Moscú
+Bayern,5.0,0.0,Viktoria Plzeň
+Bayern,2.0,3.0,Manchester City
+Benfica,2.0,0.0,Anderlecht
+Benfica,1.0,1.0,Olympiacos
+Benfica,2.0,1.0,París Saint-Germain
+Chelsea,1.0,2.0,Basel
+Chelsea,3.0,0.0,Schalke 04
+Chelsea,1.0,0.0,Steaua București 
+Dortmund,3.0,0.0,Olympique de Marsella
+Dortmund,0.0,1.0,Arsenal
+Dortmund,3.0,1.0,Napoli
+Juventus,2.0,2.0,Galatasaray
+Juventus,2.0,2.0,Real Madrid
+Juventus,3.0,1.0,Copenhague
+Man. City,1.0,3.0,Bayern Múnich
+Man. City,5.0,2.0,CSKA Moscú
+Man. City,4.0,2.0,Viktoria Plzeň
+Man. United,4.0,2.0,Bayer Leverkusen
+Man. United,1.0,0.0,Real Sociedad
+Man. United,1.0,0.0,Shakhtar Donetsk
+Milan,2.0,0.0,Celtic
+Milan,1.0,1.0,Barcelona
+Milan,0.0,0.0,Ajax
+Porto,1.0,2.0,Atlético de Madrid
+Porto,0.0,1.0,Zenit San Petersburgo
+Porto,1.0,1.0,Austria Viena
+Real Madrid,4.0,0.0,Copenhague
+Real Madrid,2.0,1.0,Juventus
+Real Madrid,4.0,1.0,Galatasaray
+Shakhtar Donetsk,1.0,1.0,Manchester United
+Shakhtar Donetsk,0.0,0.0,Bayer Leverkusen
+Shakhtar Donetsk,4.0,0.0,Real Sociedad
+Zenit,0.0,0.0,Austria Viena
+Zenit,1.0,1.0,Porto
+Zenit,1.0,1.0,Atlético de Madrid
+Ajax,1.0,4.0,Real Madrid
+Ajax,3.0,1.0,Manchester City
+Ajax,1.0,4.0,Borussia Dortmund
+Barcelona,3.0,2.0,Spartak Moscú
+Barcelona,2.0,1.0,Celtic
+Barcelona,0.0,0.0,Benfica
+Bayern,2.0,1.0,Valencia
+Bayern,6.0,1.0,Lille
+Bayern,4.0,1.0,BATE Borisov 
+Benfica,0.0,2.0,Barcelona
+Benfica,2.0,0.0,Spartak Moscú
+Benfica,2.0,1.0,Celtic
+Chelsea,2.0,2.0,Juventus
+Chelsea,3.0,2.0,Shakhtar Donetsk
+Chelsea,6.0,1.0,Nordsjælland 
+Dortmund,1.0,0.0,Ajax Ámsterdam
+Dortmund,2.0,1.0,Real Madrid
+Dortmund,1.0,0.0,Manchester City
+Juventus,1.0,1.0,Shakhtar Donetsk
+Juventus,4.0,0.0,Nordsjælland
+Juventus,3.0,0.0,Chelsea
+LOSC,1.0,3.0,BATE Borisov
+LOSC,0.0,1.0,Bayern de Múnich
+LOSC,0.0,1.0,Valencia
+Man. City,1.0,1.0,Borussia Dortmund
+Man. City,2.0,2.0,Ajax Ámsterdam
+Man. City,1.0,1.0,Real Madrid
+Man. United,1.0,0.0,Galatasaray
+Man. United,3.0,2.0,Sporting Braga
+Man. United,0.0,1.0,CFR Cluj
+Milan,0.0,0.0,Anderlecht
+Milan,1.0,1.0,Málaga
+Milan,0.0,1.0,Zenit San Petersburgo
+Real Madrid,3.0,2.0,Manchester City
+Real Madrid,2.0,2.0,Borussia Dortmund
+Real Madrid,4.0,1.0,Ajax
+Shakhtar Donetsk,2.0,0.0,Nordsjælland
+Shakhtar Donetsk,2.0,1.0,Chelsea
+Shakhtar Donetsk,0.0,1.0,Juventus
+Zenit,2.0,3.0,Milan
+Zenit,1.0,0.0,Anderlecht
+Zenit,2.0,2.0,Málaga
+Ajax,0.0,0.0,Olympique de Lyon
+Ajax,4.0,0.0,Dinamo Zagreb
+Ajax,0.0,3.0,Real Madrid  
+Barcelona,2.0,2.0,Milan
+Barcelona,2.0,0.0,Viktoria Plzeň
+Barcelona,4.0,0.0,BATE Borisov
+Bayern,2.0,0.0,Manchester City
+Bayern,3.0,2.0,Napoli
+Bayern,3.0,1.0,Villarreal
+Benfica,1.0,1.0,Manchester United
+Benfica,1.0,1.0,Basel
+Benfica,1.0,0.0,Oțelul Galați 
+Chelsea,2.0,0.0,Bayer Leverkusen
+Chelsea,5.0,0.0,Genk
+Chelsea,3.0,0.0,Valencia
+Dortmund,1.0,1.0,Arsenal
+Dortmund,1.0,0.0,Olympiacos
+Dortmund,2.0,3.0,Olympique de Marsella 
+Internazionale,0.0,1.0,Trabzonspor
+Internazionale,2.0,1.0,Lille
+Internazionale,1.0,2.0,CSKA Moscú 
+LOSC,2.0,2.0,CSKA Moscú
+LOSC,0.0,1.0,Internazionale
+LOSC,0.0,0.0,Trabzonspor
+Man. City,1.0,1.0,Napoli
+Man. City,2.0,1.0,Villarreal
+Man. City,2.0,0.0,Bayern Múnich
+Man. United,3.0,3.0,Basel
+Man. United,2.0,0.0,Oțelul Galați
+Man. United,2.0,2.0,Benfica
+Milan,2.0,0.0,Viktoria Plzeň
+Milan,2.0,0.0,BATE Borisov
+Milan,2.0,3.0,Barcelona
+Porto,2.0,1.0,Shakhtar Donetsk
+Porto,1.0,1.0,APOEL Nicosia
+Porto,0.0,0.0,Zenit San Petersburgo
+Real Madrid,3.0,0.0,Ajax Ámsterdam
+Real Madrid,4.0,0.0,Olympique de Lyon
+Real Madrid,6.0,2.0,Dinamo Zagreb
+Shakhtar Donetsk,1.0,1.0,APOEL Nicosia
+Shakhtar Donetsk,2.0,2.0,Zenit San Petersburgo
+Shakhtar Donetsk,0.0,2.0,Porto
+Villarreal,0.0,2.0,Bayern Múnich
+Villarreal,0.0,3.0,Manchester City
+Villarreal,0.0,2.0,Napoli 
+Zenit,3.0,1.0,Porto
+Zenit,1.0,0.0,Shakhtar Donetsk
+Zenit,0.0,0.0,APOEL Nicosia
+Barcelona,5.0,1.0,Panathinaikos
+Barcelona,2.0,0.0,Copenhague
+Barcelona,2.0,0.0,RubinKazán
+Benfica,2.0,0.0,HapoelTelAviv
+Benfica,4.0,3.0,OlympiquedeLyon
+Benfica,1.0,2.0,Schalke04
+Chelsea,2.0,0.0,OlympiquedeMarsella
+Chelsea,4.0,1.0,SpartakMoscú
+Chelsea,2.0,1.0,MŠKŽilina
+Milan,2.0,0.0,Auxerre
+Milan,2.0,2.0,RealMadrid
+Milan,0.0,2.0,AjaxÁmsterdam

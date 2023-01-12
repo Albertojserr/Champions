@@ -59,18 +59,18 @@ Juventus,1,3,Hamburgo
 Dep. de La Coruña ,1,0,Panathinaikos 
 Hamburgo ,1,1,Dep. de La Coruña 
 Panathinaikos ,3,1,Juventus
-Rosenborg ,3,1,París Saint-Germain 
+Rosenborg ,3,1,Paris
 Helsingborgs ,1,3,Bayern
-París Saint-Germain ,4,1,Helsingborgs 
+Paris,4,1,Helsingborgs 
 Bayern,3,1,Rosenborg 
 Rosenborg ,6,1,Helsingborgs 
-París Saint-Germain ,1,0,Bayern
+Paris,1,0,Bayern
 Helsingborgs ,2,0,Rosenborg 
-Bayern,2,0,París Saint-Germain 
-París Saint-Germain ,7,2,Rosenborg 
+Bayern,2,0,Paris
+Paris,7,2,Rosenborg 
 Bayern,0,0,Helsingborgs 
 Rosenborg ,1,1,Bayern
-Helsingborgs ,1,1,París Saint-Germain 
+Helsingborgs ,1,1,Paris
 PSV Eindhoven ,2,1,Dinamo Kiev 
 Man. United,5,1,Anderlecht 
 Dinamo Kiev ,0,0,Man. United
@@ -84,16 +84,16 @@ Anderlecht ,2,1,Man. United
 PSV Eindhoven ,2,3,Anderlecht 
 Man. United,1,0,Dinamo Kiev 
 Barcelona,4,0,Leeds United 
-Milan,4,1,Beşiktaş 
+Milan,4,1,Besiktas
 Leeds United ,1,0,Milan
-Beşiktaş ,3,0,Barcelona
+Besiktas,3,0,Barcelona
 Barcelona,0,2,Milan
-Leeds United ,6,0,Beşiktaş 
+Leeds United ,6,0,Besiktas
 Milan,3,3,Barcelona
-Beşiktaş ,0,0,Leeds United 
+Besiktas,0,0,Leeds United 
 Leeds United ,1,1,Barcelona
-Beşiktaş ,0,2,Milan
-Barcelona,5,0,Beşiktaş 
+Besiktas,0,2,Milan
+Barcelona,5,0,Besiktas
 Milan,1,1,Leeds United 
 Valencia ,2,0,Sturm Graz 
 Man. United,3,1,Panathinaikos 
@@ -108,17 +108,17 @@ Panathinaikos ,1,1,Man. United
 Valencia ,2,1,Panathinaikos 
 Man. United,3,0,Sturm Graz 
 Milan,2,2,Galatasaray 
-París Saint-Germain ,1,3,Deportivo de La Coruña 
-Galatasaray ,1,0,París Saint-Germain 
+Paris,1,3,Deportivo de La Coruña 
+Galatasaray ,1,0,Paris
 Deportivo de La Coruña ,0,1,Milan
-Milan,1,1,París Saint-Germain 
+Milan,1,1,Paris
 Galatasaray ,1,0,Deportivo de La Coruña 
-París Saint-Germain ,1,1,Milan
+Paris,1,1,Milan
 Deportivo de La Coruña ,2,0,Galatasaray 
 Galatasaray ,2,0,Milan
-Deportivo de La Coruña ,4,3,París Saint-Germain 
+Deportivo de La Coruña ,4,3,Paris
 Milan,1,1,Deportivo de La Coruña 
-París Saint-Germain ,2,0,Galatasaray 
+Paris,2,0,Galatasaray 
 Bayern,1,0,Olympique de Lyon 
 Spartak Moscú ,4,1,Arsenal 
 Olympique de Lyon ,3,0,Spartak Moscú 

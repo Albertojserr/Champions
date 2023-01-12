@@ -22,12 +22,6 @@ class Normalizar:
             self.df2=pd.unique(self.data['Visitante'])
             self.df3=list(self.df1) + list(self.df2)
 
-            self.equiposUnicos=set(self.df3)
-            self.listaUnicos=[]
-            for equipo in self.equiposUnicos:
-                self.listaUnicos.append(equipo)
-
-
     def nombrarEquiposUnicos(self):
         self.listaUnicos=[]
         self.equiposUnicos=set(self.df3)
@@ -116,7 +110,7 @@ class Normalizar:
         normalizar.normalizarDatos()
         normalizar.GuardarDatos()
 
-def NormalizarPalabra(self):
+def NormalizarPalabra(palabra):
     palabra=palabra.lower()
     palabra=palabra.replace("á","a")
     palabra=palabra.replace("é","e")

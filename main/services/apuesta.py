@@ -2,7 +2,6 @@ from main.map import ApuestaSchema
 from main.repositories.repositorioapuesta import ApuestaRepositorio
 from main.repositories.repositoriocuota import CuotaRepositorio
 from abc import ABC
-from Codigos.Prediccion import Prediccion
 from scipy.stats import poisson
 import pandas as pd
 

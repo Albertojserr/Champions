@@ -5,11 +5,11 @@ from normalizar import NormalizarPalabra
 class Prediccion:
 
     def __init__(self):
-        self.listaEquipos = pd.read_csv ('docs/equipo.csv')
-        print(self.listaEquipos.head())
-        self.equipos=self.listaEquipos['Equipo']
-        print(type(self.equipos))
-        self.equipos=list(self.equipos)
+        self.listaEquipos = pd.read_csv ('docs/equipo.csv') #Leemos el csv con los nombres de los equipos
+        print(self.listaEquipos.head()) #Mostramos los datos del csv
+        self.equipos=self.listaEquipos['Equipo'] #Guardamos los nombres de los equipos en una variable
+        print(type(self.equipos)) #Mostramos el tipo de variable
+        self.equipos=list(self.equipos) #Convertimos la variable en una lista
         self.años=["2020-21","2019-20","2018-19","2017-18","2015-16","2014-15","2013-14","2012-13","2011-12","2010-11","2009-10","2008-09"
         ,"2007-08","2006-07","2005-06","2004-05","2003-04","2002-03","2001-02","2000-01"]
 
@@ -49,7 +49,6 @@ class Prediccion:
             else:
                 self.golesVisitante[key]=[0,0,0]
 
-        #print(self.golesLocal)
 
     def Ligas(self):
         self.golesLigaLocal={}
@@ -74,8 +73,7 @@ class Prediccion:
                 self.golesLigaVisitante[equipo]+=int(self.datos.iloc[0]['goles A favor'])/2
 
 
-        #print(golesLigaVisitante)
-        #print(golesLigaLocal)
+    #Convertimos los diccionarios en csv para poder trabajar con ellos
     def convertirChampions(self):
         df1= pd.DataFrame([[key, self.golesLocal[key][0],self.golesLocal[key][1]] for key in self.golesLocal.keys()], columns=['Equipo','golesLocal','golesRecibidosLocal'])
         df1.to_csv('golesLocal.csv', index=False)

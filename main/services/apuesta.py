@@ -10,11 +10,19 @@ apuesta_schema = ApuestaSchema()
 apuesta_repositorio = ApuestaRepositorio()
 cuota_repositorio = CuotaRepositorio()
 
+
+def obtenerEquipos(indice1,indice2):
+    listaEquipos = pd.read_csv ('docs/equipo.csv')
+    equipo1=listaEquipos['Equipo'][int(indice1-1)]
+    equipo2=listaEquipos['Equipo'][int(indice2-1)]
+    return equipo1,equipo2
+
+
 class ApuestaService:
 
     def __init__(self):
         self.df1 = pd.read_csv('golesChampions.csv')
-
+        self.df1= self.df1.set_index('Equipo')
     def agregar_apuesta(self, apuesta, local, visitante):
         cuota = cuota_repositorio.find_by_partido(apuesta)
         probabilidad = self.set_cuota(cuota, local, visitante)
@@ -44,11 +52,11 @@ class ApuestaService:
         return apuesta_repositorio.find_all()
 
 class CuotaStrategy(ABC):
-    def calcular_cuota(self, local, visitante):
+    def calcular_cuota(self,local, visitante):
         """Calcular probabilidad"""
         if local in self.df1.index and visitante in self.df1.index:
-            cuota_local = self.df1.at[local, 'GolesLocal'] * self.df1.at[visitante, 'GolesVisitante']
-            cuota_visitante = self.df1.at[visitante, 'GolesVisitante'] * self.df1.at[local, 'GolesLocal']
+            cuota_local = float(self.df1['golesLocal'][local]+1) * float(self.df1['golesRecibidosVisitante'][visitante]+1)
+            cuota_visitante = float(self.df1['golesVisitante'][visitante]+1) * float(self.df1['golesRecibidosLocal'][local]+1)
             prob_local, prob_visitante, prob_empate= 0, 0, 0
             for x in range(0, 11): # Numero de goles del equipo local
                 for y in range(0, 11): #Numero de goles del equipo visitante
@@ -60,13 +68,27 @@ class CuotaStrategy(ABC):
                     else:
                         prob_visitante += p
 
-            puntos_local = 3*prob_local + prob_empate
-            puntos_visitante = 3*prob_visitante + prob_empate
+            total=prob_empate+prob_local+prob_visitante
+            prob_local=(prob_local*100)/total
+            prob_empate=(prob_empate*100)/total
+            prob_visitante=(prob_visitante*100)/total
 
-            return (puntos_local, puntos_visitante)
+            return (round(prob_local,2),round(prob_empate,2), round(prob_visitante,2))
 
         else:
-            return (0, 0)
+            return (33,34,33)
+    def cambiar_cuotas(self):
+        listaPartidos = pd.read_csv ('docs/partidos.csv')
+
+        for i in range(len(listaPartidos)):
+            indice1=listaPartidos.iloc[i]['Local']
+            indice2=listaPartidos.iloc[i]['Visitante']
+            equipo1,equipo2=obtenerEquipos(indice1,indice2)
+            prob=self.calcular_cuota(equipo1,equipo2)
+            listaPartidos.iloc[i,3]=prob[0]
+            listaPartidos.iloc[i,4]=prob[1]
+            listaPartidos.iloc[i,5]=prob[2]
+        listaPartidos.to_csv('docs/partidos.csv', index=False)
 
 
 class CuotaLocal(CuotaStrategy):

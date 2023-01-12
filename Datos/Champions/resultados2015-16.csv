@@ -1,51 +1,51 @@
 Local,GolesLocal,GolesVisitante,Visitante
-ParísSaintGermain,2,0,Malmö
-RealMadrid,4,0,ShakhtarDonetsk
-ShakhtarDonetsk,0,3,ParísSaintGermain
-Malmö,0,2,RealMadrid
-ParísSaintGermain,0,0,RealMadrid
-Malmö,1,0,ShakhtarDonetsk
-ShakhtarDonetsk,4,0,Malmö
-RealMadrid,1,0,ParísSaintGermain
-Malmö,0,5,ParísSaintGermain
-ShakhtarDonetsk,3,4,RealMadrid
-ParísSaintGermain,2,0,ShakhtarDonetsk
-RealMadrid,8,0,Malmö
-Wolfsburgo,1,0,CSKAMoscú
-PSVEindhoven,2,1,ManchesterUnited
-ManchesterUnited,2,1,Wolfsburgo
-CSKAMoscú,3,2,PSVEindhoven
-CSKAMoscú,1,1,ManchesterUnited
-Wolfsburgo,2,0,PSVEindhoven
-ManchesterUnited,1,0,CSKAMoscú
-PSVEindhoven,2,0,Wolfsburgo
-CSKAMoscú,0,2,Wolfsburgo
-ManchesterUnited,0,0,PSVEindhoven
-Wolfsburgo,3,2,ManchesterUnited
-PSVEindhoven,2,1,CSKAMoscú
-Galatasaray,0,2,AtléticodeMadrid
+Paris,2,0,Malmö
+Real Madrid,4,0,Shakhtar Donetsk
+Shakhtar Donetsk,0,3,Paris
+Malmö,0,2,Real Madrid
+Paris,0,0,Real Madrid
+Malmö,1,0,Shakhtar Donetsk
+Shakhtar Donetsk,4,0,Malmö
+Real Madrid,1,0,Paris
+Malmö,0,5,Paris
+Shakhtar Donetsk,3,4,Real Madrid
+Paris,2,0,Shakhtar Donetsk
+Real Madrid,8,0,Malmö
+Wolfsburg,1,0,CSKAMoscú
+PSV Eindhoven,2,1,Man. United
+Man. United,2,1,Wolfsburg
+CSKAMoscú,3,2,PSV Eindhoven
+CSKAMoscú,1,1,Man. United
+Wolfsburg,2,0,PSV Eindhoven
+Man. United,1,0,CSKAMoscú
+PSV Eindhoven,2,0,Wolfsburg
+CSKAMoscú,0,2,Wolfsburg
+Man. United,0,0,PSV Eindhoven
+Wolfsburg,3,2,Man. United
+PSV Eindhoven,2,1,CSKAMoscú
+Galatasaray,0,2,Atletico
 Benfica,2,0,Astana
 Astana,2,2,Galatasaray
-AtléticodeMadrid,1,2,Benfica
-AtléticodeMadrid,4,0,Astana
+Atletico,1,2,Benfica
+Atletico,4,0,Astana
 Galatasaray,2,1,Benfica
-Astana,0,0,AtléticodeMadrid
+Astana,0,0,Atletico
 Benfica,2,1,Galatasaray
 Astana,2,2,Benfica
-AtléticodeMadrid,2,0,Galatasaray
+Atletico,2,0,Galatasaray
 Galatasaray,1,1,Astana
-Benfica,1,2,AtléticodeMadrid
-ManchesterCity,1,2,Juventus
+Benfica,1,2,Atletico
+Man. City,1,2,Juventus
 Sevilla,3,0,BorussiaMönchengladbach
-BorussiaMönchengladbach,1,2,ManchesterCity
+BorussiaMönchengladbach,1,2,Man. City
 Juventus,2,0,Sevilla
 Juventus,0,0,BorussiaMönchengladbach
-ManchesterCity,2,1,Sevilla
+Man. City,2,1,Sevilla
 BorussiaMönchengladbach,1,1,Juventus
-Sevilla,1,3,ManchesterCity
-Juventus,1,0,ManchesterCity
+Sevilla,1,3,Man. City
+Juventus,1,0,Man. City
 BorussiaMönchengladbach,4,2,Sevilla
-ManchesterCity,4,2,BorussiaMönchengladbach
+Man. City,4,2,BorussiaMönchengladbach
 Sevilla,1,0,Juventus
 BayerLeverkusen,4,1,BATEBorisov
 Roma,1,1,Barcelona
@@ -60,38 +60,38 @@ Barcelona,6,1,Roma
 BayerLeverkusen,1,1,Barcelona
 Roma,0,0,BATEBorisov
 DinamoZagreb,2,1,Arsenal
-Olympiacos,0,3,BayernMúnich
-BayernMúnich,5,0,DinamoZagreb
+Olympiacos,0,3,Bayern
+Bayern,5,0,DinamoZagreb
 Arsenal,2,3,Olympiacos
-Arsenal,2,0,BayernMúnich
+Arsenal,2,0,Bayern
 DinamoZagreb,0,1,Olympiacos
-BayernMúnich,5,1,Arsenal
+Bayern,5,1,Arsenal
 Olympiacos,2,1,DinamoZagreb
 Arsenal,3,0,DinamoZagreb
-BayernMúnich,4,0,Olympiacos
-DinamoZagreb,0,2,BayernMúnich
+Bayern,4,0,Olympiacos
+DinamoZagreb,0,2,Bayern
 Olympiacos,0,3,Arsenal
-DinamoKiev,2,2,Porto
+Dynamo Kyiv,2,2,Porto
 Chelsea,4,0,MaccabiTelAviv
-MaccabiTelAviv,0,2,DinamoKiev
+MaccabiTelAviv,0,2,Dynamo Kyiv
 Porto,2,1,Chelsea
 Porto,2,0,MaccabiTelAviv
-DinamoKiev,0,0,Chelsea
+Dynamo Kyiv,0,0,Chelsea
 MaccabiTelAviv,1,3,Porto
-Chelsea,2,1,DinamoKiev
-Porto,0,2,DinamoKiev
+Chelsea,2,1,Dynamo Kyiv
+Porto,0,2,Dynamo Kyiv
 MaccabiTelAviv,0,4,Chelsea
-DinamoKiev,1,0,MaccabiTelAviv
+Dynamo Kyiv,1,0,MaccabiTelAviv
 Chelsea,2,0,Porto
-Valencia,2,3,ZenitdeSanPetersburgo
+Valencia,2,3,Zenit
 Gent,1,1,OlympiquedeLyon
 OlympiquedeLyon,0,1,Valencia
-ZenitdeSanPetersburgo,2,1,Gent
-ZenitdeSanPetersburgo,3,1,OlympiquedeLyon
+Zenit,2,1,Gent
+Zenit,3,1,OlympiquedeLyon
 Valencia,2,1,Gent
-OlympiquedeLyon,0,2,ZenitdeSanPetersburgo
+OlympiquedeLyon,0,2,Zenit
 Gent,1,0,Valencia
-ZenitdeSanPetersburgo,2,0,Valencia
+Zenit,2,0,Valencia
 OlympiquedeLyon,1,2,Gent
 Valencia,0,2,OlympiquedeLyon
-Gent,2,1,ZenitdeSanPetersburgo
+Gent,2,1,Zenit

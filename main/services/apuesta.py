@@ -10,7 +10,7 @@ apuesta_repositorio = ApuestaRepositorio()
 cuota_repositorio = CuotaRepositorio()
 
 
-def obtenerEquipos(indice1,indice2):
+def obtenerEquipos(indice1,indice2):#Este método lo que hará es dados unos índices, sacar los equipos que tengan esos índices en el documento de equipo.csv
     listaEquipos = pd.read_csv ('docs/equipo.csv')
     equipo1=listaEquipos['Equipo'][int(indice1-1)]
     equipo2=listaEquipos['Equipo'][int(indice2-1)]
@@ -22,6 +22,7 @@ class ApuestaService:
     def __init__(self):
         self.df1 = pd.read_csv('golesChampions.csv')
         self.df1= self.df1.set_index('Equipo')
+
     def agregar_apuesta(self, apuesta, local, visitante):
         cuota = cuota_repositorio.find_by_partido(apuesta)
         probabilidad = self.set_cuota(cuota, local, visitante)
@@ -77,7 +78,7 @@ class CuotaStrategy(ABC):
                     else: #Si el equipo local hace x goles y el equipo visitante hace y goles (más que el local), se suma la probabilidad a la probabilidad de que gane el equipo visitante
                         prob_visitante += p
 
-            total=prob_empate+prob_local+prob_visitante #Suma de todas las probabilidades, debe ser 1 (en porcentaje sería 100)
+            total=prob_empate+prob_local+prob_visitante #Suma de todas las probabilidades para luego hacer conversión a tanto por ciento
             prob_local=(prob_local*100)/total #Se convierte a porcentaje
             prob_empate=(prob_empate*100)/total #Se convierte a porcentaje
             prob_visitante=(prob_visitante*100)/total #Se convierte a porcentaje

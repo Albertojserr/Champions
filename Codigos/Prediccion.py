@@ -22,16 +22,32 @@ class Prediccion:
         self.golesVisitante={}
 
         for equipo in self.equipos:
-            self.golesLocal[equipo]=0
-            self.golesVisitante[equipo]=0
+            self.golesLocal[equipo]=[0,0,0] #para cada equipo del dicc inicializo(GolesLocal,GolesRecibidoL,Partidos)
+            self.golesVisitante[equipo]=[0,0,0]
 
         for año in self.años:
             for i in range(len(self.Champions[año])):
                 if str(self.Champions[año].iloc[i]['Local']) in self.equipos:
-                    self.golesLocal[self.Champions[año].iloc[i]['Local']]+=int(self.Champions[año].iloc[i]['GolesLocal'])
+                    self.golesLocal[self.Champions[año].iloc[i]['Local']][0]+=int(self.Champions[año].iloc[i]['GolesLocal'])
+                    self.golesLocal[self.Champions[año].iloc[i]['Local']][1]+=int(self.Champions[año].iloc[i]['GolesVisitante'])
+                    self.golesLocal[self.Champions[año].iloc[i]['Local']][2]+=1
                 if self.Champions[año].iloc[i]['Visitante'] in self.equipos:
-                    self.golesVisitante[self.Champions[año].iloc[i]['Visitante']]+=int(self.Champions[año].iloc[i]['GolesVisitante'])
+                    self.golesVisitante[self.Champions[año].iloc[i]['Visitante']][0]+=int(self.Champions[año].iloc[i]['GolesVisitante'])
+                    self.golesVisitante[self.Champions[año].iloc[i]['Visitante']][1]+=int(self.Champions[año].iloc[i]['GolesLocal'])
+                    self.golesVisitante[self.Champions[año].iloc[i]['Visitante']][2]+=1
             print(f'año {año} terminado')
+        for key in self.golesLocal:
+            if self.golesLocal[key][2]!=0:
+                self.golesLocal[key][0]=float(self.golesLocal[key][0]/self.golesLocal[key][2])
+                self.golesLocal[key][1]=float(self.golesLocal[key][1]/self.golesLocal[key][2])
+            else:
+                self.golesLocal[key]=[0,0,0]
+        for key in self.golesVisitante:
+            if self.golesVisitante[key][2]!=0:
+                self.golesVisitante[key][0]=float(self.golesVisitante[key][0]/self.golesVisitante[key][2])
+                self.golesVisitante[key][1]=float(self.golesVisitante[key][1]/self.golesVisitante[key][2])
+            else:
+                self.golesVisitante[key]=[0,0,0]
 
         #print(self.golesLocal)
 
@@ -61,11 +77,12 @@ class Prediccion:
         #print(golesLigaVisitante)
         #print(golesLigaLocal)
     def convertirChampions(self):
-        df1= pd.DataFrame([[key, self.golesLocal[key]] for key in self.golesLocal.keys()], columns=['EquipoEnLocal', 'golesLocal'])
+        df1= pd.DataFrame([[key, self.golesLocal[key][0],self.golesLocal[key][1]] for key in self.golesLocal.keys()], columns=['Equipo','golesLocal','golesRecibidosLocal'])
         df1.to_csv('golesLocal.csv', index=False)
-        df2 = pd.DataFrame([[key, self.golesVisitante[key]] for key in self.golesVisitante.keys()], columns=['EquipoEnVisitante', 'golesVisitante'])
+        df2 = pd.DataFrame([[key, self.golesVisitante[key][0], self.golesVisitante[key][1]] for key in self.golesVisitante.keys()], columns=['EquipoVisitante', 'golesVisitante','golesRecibidosVisitante'])
         df2.to_csv('golesVistante.csv', index=False)
         df3 = pd.concat([df1, df2], axis=1)
+        df3=df3.drop(['EquipoVisitante'],axis=1)
         df3.to_csv('golesChampions.csv', index=False)
         print(df3)
 

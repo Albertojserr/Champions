@@ -17,14 +17,20 @@ class Normalizar:
 
     def prepararDatos(self):
         for año in self.años:
-            self.data=pd.read_csv(f'Datos/resultados{año}.csv')
+            self.data=pd.read_csv(f'Datos/Champions/resultados{año}.csv')
             self.df1=pd.unique(self.data['Local'])
             self.df2=pd.unique(self.data['Visitante'])
-            self.df1=list(self.df1) + list(self.df2)
+            self.df3=list(self.df1) + list(self.df2)
+
+            self.equiposUnicos=set(self.df3)
+            self.listaUnicos=[]
+            for equipo in self.equiposUnicos:
+                self.listaUnicos.append(equipo)
+
 
     def nombrarEquiposUnicos(self):
         self.listaUnicos=[]
-        self.equiposUnicos=set(self.df1)
+        self.equiposUnicos=set(self.df3)
 
         for equipo in self.equiposUnicos:
             self.listaUnicos.append(equipo)
@@ -123,8 +129,6 @@ class Normalizar:
 
     def GuardarDatos(self):
         for año in self.años:
-            self.data=pd.read_csv(f'Datos/resultados{año}.csv')
-            self.normalizarDatos()
             self.data.to_csv(f'Datos/resultados{año}.csv',index=False)
 
 
